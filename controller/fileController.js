@@ -23,7 +23,7 @@ const storage = multer.diskStorage({
 const upload = multer({
     storage : storage,
     limits : {
-        fileSize : 1024*1024*2 //--> 2 mb
+        fileSize : 1024 * 1024 * 5 //--> 5 mb
     }
 }).single("attachment") //---> key name(attachment) which will pass through postman.
 

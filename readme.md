@@ -19,6 +19,6 @@ install nodemailer to share the file through mail => npm i nodemailer.
 
 install "npm i dotenv"
 
-push this code on github and then connect it to render.
+push this code on github and then connect it to render.(On render click +New then click web service).
 email sending will not work bcz render will unable to access SMTP of maildev. "So, handle it by yourself and learn"
 check rest on postman with the new link of render.com
