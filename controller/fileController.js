@@ -40,7 +40,7 @@ const uploadFile = (req, res)=>{
 
         console.log(req.file);
         const fileData = {
-            originalname : req.file.originalname,
+            originalName : req.file.originalname,
             newName : req.file.filename,
             size : req.file.size
         }
